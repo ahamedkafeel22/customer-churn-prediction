@@ -38,7 +38,7 @@ POST /predict
 {
   "churn_prediction": 1,
   "churn_label": "Will Churn",
-  "churn_probability": 0.85,
+  "churn_probability": 0.89,
   "risk_level": "High"
 }
 ```
