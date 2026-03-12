@@ -10,6 +10,17 @@
 
 ---
 
+## 🏢 Business Understanding
+
+| | |
+|---|---|
+| **Business Problem** | A telecom company is experiencing significant revenue loss due to customer churn. With no predictive system in place, the business only discovers churned customers after they have already left — making retention impossible and acquisition costs (5–7x higher than retention) unsustainable. |
+| **Business Objective** | Build a machine learning model that identifies customers at high risk of churning before they leave — enabling the retention team to intervene proactively with targeted offers, discounts, or outreach. |
+| **Business Constraint** | Model must use only existing customer data (no new data collection), must be interpretable enough for business teams to act on predictions, and must be deployable as a real-time API for CRM integration. |
+| **Business Success Criteria** | Retention team receives a weekly list of high-risk customers ranked by churn probability, allowing targeted outreach before cancellation — reducing reactive churn handling to near zero. |
+| **ML Success Criteria** | Best model achieves ROC-AUC ≥ 0.90 and Recall ≥ 80% on churn class — ensuring the majority of actual churners are identified before they leave. |
+| **Economic Success Criteria** | With 7,043 customers, 26.5% churn rate, and $70/month ARPU: preventing even 10% of predicted churners saves approximately $700,000 in annual revenue. Retention offer cost (~$10/customer) is far outweighed by $70/month retention value. |
+
 ## 🔎 Project Overview
 
 A complete Machine Learning pipeline that predicts customer churn for a telecom company — from raw data ingestion to a **deployed REST API with live predictions**.
